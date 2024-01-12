@@ -1,0 +1,22 @@
+# .gitignore
+
+# Ignora el directorio node_modules
+node_modules/
+
+# Ignora el archivo .env
+.env
+
+# Ignora todos los archivos .log
+*.log
+
+# Ignora el directorio de la caché de npm
+.npm/
+
+# Ignora el directorio de la caché de yarn
+.yarn-cache/
+
+# Ignora los archivos de configuración del editor (VS Code)
+.vscode/
+
+# Ignora los archivos de configuración de macOS
+.DS_Store

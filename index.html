@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truora Document Validation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Validación de Documento Truora</h1>
+
+  <form id="documentValidationForm">
+    <label for="frontImage">Cargar Frontal del Documento:</label>
+    <input type="file" id="frontImage" accept="image/*" required>
+
+    <label for="reverseImage">Cargar Reverso del Documento:</label>
+    <input type="file" id="reverseImage" accept="image/*" required>
+
+    <button type="button" onclick="createValidation()">Validar Documento</button>
+  </form>
+
+  <div id="loadingMessage" style="display: none;">
+    <p>Validación en progreso...</p>
+    <!-- Puedes reemplazar esto con un spinner de carga si prefieres -->
+  </div>
+
+  <div id="validationResults">
+    <button id="retryButton" type="button" onclick="createValidation()" style="display: none;">Reintentar</button>
+  </div>
+
+  <div>
+    <button id="retryButton" type="button" onclick="createValidation()" style="display: none;">Reintentar</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
