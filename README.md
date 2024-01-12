@@ -9,7 +9,7 @@ El proyecto consta de los siguientes archivos:
 - `index.html`: 🖥️ Aquí es donde vive la interfaz de usuario de la aplicación.
 - `styles.css`: 🎨 Este archivo contiene todos los estilos que hacen que nuestra aplicación se vea bien.
 - `script.js`: 🧠 Este archivo es el cerebro de nuestra aplicación. Aquí es donde interactuamos con la API de Truora.
-- `.env`: 🔑 Este archivo contiene las variables de entorno necesarias para la aplicación, como la clave de la API de Truora y el punto final de la API.
+- `.env`: 🔑 Este archivo contiene las variables de entorno necesarias para la aplicación, como la clave de la API de Truora y el endpoint de la API.
 - `.gitignore`: 🙈 Este archivo le dice a Git qué archivos o directorios no debe rastrear ni subir a tu repositorio.
 
 ## 🚀 Cómo ejecutar el proyecto
