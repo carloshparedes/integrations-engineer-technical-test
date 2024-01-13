@@ -22,3 +22,4 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos sencillos p
 4. Asegúrate de que tu archivo `.env` esté configurado con tus propias variables de entorno. 🔑 Necesitarás obtener una clave de API y un end-point de la API de Truora. ¡Mantén estas credenciales seguras!
 5. Una vez que hayas reemplazado las credenciales en tu archivo `script.js`, simplemente abre `index.html` en tu navegador para probar la aplicación y validar tu documento. 🎉
 
+![](https://media.licdn.com/dms/image/D4D2DAQGC7UsIMxnJkw/profile-treasury-image-shrink_800_800/0/1705168811801?e=1705777200&v=beta&t=CuXPTUcqyFqvISeu4CrDlOHrgJfaqfjYnaL_MAgjZyM){width='100px' height='100px'}
